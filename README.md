@@ -51,14 +51,3 @@ The project is structured into four main Jupyter notebooks, one for each strateg
 
 ---
 
-## 🚀 Future Work & Limitations
-
-The current backtests provide compelling theoretical results. For a full-scale, production-ready system, the following critical steps should be taken:
-
-1.  **Transaction Costs**: Incorporate realistic bid/ask spreads, commissions, and market impact to accurately reflect net returns, especially given the monthly rebalancing frequency.
-2.  **Historical Risk-Free Rate**: Replace the assumed risk-free rate with a dynamically calculated historical rate for a more precise Sharpe Ratio calculation.
-3.  **Risk Management**: Integrate concrete risk-mitigation measures, such as trailing stop-losses, dynamic position sizing, or volatility targeting, to address the significant maximum drawdowns observed.
-
----
-
-*This project was completed by Ali Sarabandi as part of a Master of Science (MSc) program at the University of Bicocca - Milano.*
